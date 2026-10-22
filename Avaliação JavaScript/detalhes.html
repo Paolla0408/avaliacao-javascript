@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="#641f32" name="theme-color"/>
+  <title>
+   Detalhes do prato | Takumi Sushi
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="site-header">
+   <nav aria-label="Navega&ccedil;&atilde;o principal" class="nav wrap">
+    <a class="brand" href="index.html">
+     <span class="brand-mark">
+      竹
+     </span>
+     <span>
+      TAKUMI
+      <small>
+       S U S H I
+      </small>
+     </span>
+    </a>
+    <button aria-expanded="false" aria-label="Abrir menu" class="menu-toggle" type="button">
+     ☰
+    </button>
+    <ul class="nav-links">
+     <li>
+      <a href="index.html">
+       In&iacute;cio
+      </a>
+     </li>
+     <li>
+      <a href="cardapio.html">
+       Card&aacute;pio
+      </a>
+     </li>
+     <li>
+      <a class="active" href="detalhes.html">
+       Detalhes
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main>
+   <section class="menu-hero detail-hero">
+    <div class="wrap menu-hero-inner">
+     <span class="eyebrow light">
+      UM POUCO MAIS DE PERTO
+     </span>
+     <h1>
+      Detalhes do
+      <em>
+       prato
+      </em>
+     </h1>
+     <p>
+      Conhe&ccedil;a os ingredientes e os detalhes de cada escolha.
+     </p>
+    </div>
+   </section>
+   <section class="section wrap detail-section">
+    <div aria-live="polite" class="status" id="status-detalhe" role="status">
+     Carregando informa&ccedil;&otilde;es do prato...
+    </div>
+    <div id="detalhe-produto">
+    </div>
+    <a class="btn btn-outline" href="cardapio.html">
+     &larr; Voltar ao card&aacute;pio
+    </a>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="wrap footer-inner">
+    <a class="brand footer-brand" href="index.html">
+     <span class="brand-mark">
+      竹
+     </span>
+     <span>
+      TAKUMI
+      <small>
+       S U S H I
+      </small>
+     </span>
+    </a>
+    <p>
+     Uma pausa para apreciar o sabor.
+    </p>
+    <span>
+     &copy;
+     <span id="ano">
+     </span>
+     Takumi Sushi
+    </span>
+   </div>
+  </footer>
+  <script src="detalhes.js">
+  </script>
+  <script>
+   document.getElementById('ano').textContent=new Date().getFullYear();
+  </script>
+ </body>
+</html>

@@ -1,0 +1,83 @@
+[
+  {
+    "nome": "Sashimi",
+    "restaurante": "Takumi Sushi",
+    "imagem": "sashimi.jpg",
+    "produto": "Sashimi",
+    "descricao": "Fatias frescas de salmão premium, cortadas artesanalmente.",
+    "id": "local-sashimi",
+    "preco": "45,90"
+  },
+  {
+    "nome": "Hot Roll",
+    "restaurante": "Takumi Sushi",
+    "imagem": "hot-roll.jpg",
+    "produto": "Hot Roll",
+    "descricao": "Sushi empanado, quentinho e crocante, com recheio especial.",
+    "id": "local-hot-roll",
+    "preco": "32,90"
+  },
+  {
+    "nome": "Temaki Salmão",
+    "restaurante": "Takumi Sushi",
+    "imagem": "temaki.jpg",
+    "produto": "Temaki Salmão",
+    "descricao": "Cone de alga recheado com salmão fresco e cream cheese.",
+    "id": "local-temaki-salmao",
+    "preco": "29,90"
+  },
+  {
+    "nome": "Sushi Especial",
+    "restaurante": "Takumi Sushi",
+    "imagem": "combo-2.jpg",
+    "produto": "Sushi Especial",
+    "descricao": "Combinado premium selecionado especialmente pelo chef.",
+    "id": "local-sushi-especial",
+    "preco": "49,90"
+  },
+  {
+    "nome": "Yakisoba",
+    "restaurante": "Takumi Sushi",
+    "imagem": "yakisoba.webp",
+    "produto": "Yakisoba",
+    "descricao": "Macarrão oriental salteado com legumes e molho especial.",
+    "id": "local-yakisoba",
+    "preco": "38,90"
+  },
+  {
+    "nome": "Uramaki",
+    "restaurante": "Takumi Sushi",
+    "imagem": "uramaki.jpg",
+    "produto": "Uramaki",
+    "descricao": "Rolinho japonês recheado com ingredientes frescos.",
+    "id": "local-uramaki",
+    "preco": "35,90"
+  },
+  {
+    "nome": "Gyoza",
+    "restaurante": "Takumi Sushi",
+    "imagem": "gyoza.webp",
+    "produto": "Gyoza",
+    "descricao": "Pastéis japoneses recheados e grelhados até ficarem douradinhos.",
+    "id": "local-gyoza",
+    "preco": "24,90"
+  },
+  {
+    "nome": "Missoshiru",
+    "restaurante": "Takumi Sushi",
+    "imagem": "missoshiru.jpg",
+    "produto": "Missoshiru",
+    "descricao": "Sopa tradicional japonesa preparada com missô.",
+    "id": "local-missoshiru",
+    "preco": "18,90"
+  },
+  {
+    "nome": "Combo Takumi",
+    "restaurante": "Takumi Sushi",
+    "imagem": "combo-1.jpg",
+    "produto": "Combo Takumi",
+    "descricao": "Seleção especial com 30 peças variadas para compartilhar.",
+    "id": "local-combo-takumi",
+    "preco": "89,90"
+  }
+]

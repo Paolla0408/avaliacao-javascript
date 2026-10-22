@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="#641f32" name="theme-color"/>
+  <title>
+   Card&aacute;pio | Takumi Sushi
+  </title>
+  <link href="style.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+ </head>
+ <body>
+  <header class="site-header">
+   <nav aria-label="Navega&ccedil;&atilde;o principal" class="nav wrap">
+    <a class="brand" href="index.html">
+     <span class="brand-mark">
+      竹
+     </span>
+     <span>
+      TAKUMI
+      <small>
+       S U S H I
+      </small>
+     </span>
+    </a>
+    <button aria-expanded="false" aria-label="Abrir menu" class="menu-toggle" type="button">
+     ☰
+    </button>
+    <ul class="nav-links">
+     <li>
+      <a href="index.html">
+       In&iacute;cio
+      </a>
+     </li>
+     <li>
+      <a class="active" href="cardapio.html">
+       Card&aacute;pio
+      </a>
+     </li>
+     <li>
+      <a href="detalhes.html">
+       Detalhes
+      </a>
+     </li>
+    </ul>
+   </nav>
+  </header>
+  <main>
+   <section class="menu-hero">
+    <div class="wrap menu-hero-inner">
+     <span class="eyebrow light">
+      PREPARADO COM INTEN&Ccedil;&Atilde;O
+     </span>
+     <h1>
+      Nosso
+      <em>
+       card&aacute;pio
+      </em>
+     </h1>
+     <p>
+      Cl&aacute;ssicos japoneses e combina&ccedil;&otilde;es especiais para descobrir, compartilhar e repetir.
+     </p>
+     <div aria-hidden="true" class="menu-deco">
+      和　味　心
+     </div>
+    </div>
+   </section>
+   <section class="section wrap menu-section">
+    <div class="section-heading menu-heading">
+     <div>
+      <span class="eyebrow">
+       ESCOLHA SEU FAVORITO
+      </span>
+      <h2>
+       Sabores do Takumi
+      </h2>
+     </div>
+     <p class="menu-intro">
+      Cada prato tem sua pr&oacute;pria hist&oacute;ria.
+     </p>
+    </div>
+    <div class="menu-search-wrap">
+     <label class="search-label" for="pesquisa-cardapio">Encontre seu favorito</label>
+     <div class="menu-search">
+      <span aria-hidden="true">⌕</span>
+      <input id="pesquisa-cardapio" type="search" placeholder="Pesquisar prato, ingrediente..." autocomplete="off" aria-label="Pesquisar pratos do cardápio" />
+      <button id="limpar-pesquisa" type="button" aria-label="Limpar pesquisa">Limpar</button>
+     </div>
+    </div>
+    <div aria-live="polite" class="status" id="status-api" role="status">
+     Preparando nosso card&aacute;pio...
+    </div>
+    <div class="cards menu-cards" id="lista-produtos">
+    </div>
+    <noscript>
+     <p>
+      Ative o JavaScript para visualizar o card&aacute;pio interativo.
+     </p>
+    </noscript>
+   </section>
+  </main>
+  <footer class="site-footer">
+   <div class="wrap footer-inner">
+    <a class="brand footer-brand" href="index.html">
+     <span class="brand-mark">
+      竹
+     </span>
+     <span>
+      TAKUMI
+      <small>
+       S U S H I
+      </small>
+     </span>
+    </a>
+    <p>
+     Uma pausa para apreciar o sabor.
+    </p>
+    <span>
+     &copy;
+     <span id="ano">
+     </span>
+     Takumi Sushi
+    </span>
+   </div>
+  </footer>
+  <script src="cardapio.js">
+  </script>
+  <script>
+   document.getElementById('ano').textContent=new Date().getFullYear();
+  </script>
+ </body>
+</html>
